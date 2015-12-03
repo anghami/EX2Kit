@@ -249,6 +249,7 @@ static BOOL _isThrottlingEnabled = YES;
     {
         self.tapBlock();
     }
+    [self hideSlidingNotification];
 }
 
 @end
