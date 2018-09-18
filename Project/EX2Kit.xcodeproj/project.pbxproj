@@ -1588,7 +1588,7 @@
 		53D44E9615AA56C700CDD3B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 53D44E9915AA56C700CDD3B8 /* Build configuration list for PBXProject "EX2Kit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1922,7 +1922,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1951,9 +1950,7 @@
 				SEPARATE_STRIP = NO;
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = all;
-				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -1961,7 +1958,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1988,9 +1984,7 @@
 				SEPARATE_STRIP = NO;
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = all;
-				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -2223,7 +2217,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "EX2KitResources/EX2KitResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2249,7 +2243,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "EX2KitResources/EX2KitResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
