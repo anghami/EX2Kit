@@ -391,6 +391,7 @@
 		53F8852016BB8EF900372A2D /* RNCryptorOld.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8851E16BB8EF900372A2D /* RNCryptorOld.m */; };
 		9901CC58212D8C1D0080B171 /* NSArray+CleanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9901CC56212D8C1D0080B171 /* NSArray+CleanString.h */; };
 		9901CC59212D8C1D0080B171 /* NSArray+CleanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9901CC57212D8C1D0080B171 /* NSArray+CleanString.m */; };
+		AAFB83552A6E7535002E4EC2 /* EX2ANGLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A45BE12048685A003CE1D6 /* EX2ANGLogger.m */; };
 		ECF069AB20077D8E008CBA54 /* NSArray+FirstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15EFD162B9FCA00C24FC1 /* NSArray+FirstObject.m */; };
 		ECF069AC20077D8E008CBA54 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15EFF162B9FCA00C24FC1 /* NSArray+Safe.m */; };
 		ECF069AD20077D8E008CBA54 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F01162B9FCA00C24FC1 /* NSMutableArray+Safe.m */; };
@@ -1668,6 +1669,7 @@
 				18D45B381C8F100800A025CC /* NSNull+CleanString.m in Sources */,
 				18D45B391C8F100800A025CC /* NSObject+UserInfo.m in Sources */,
 				18D45B3D1C8F100800A025CC /* EX2ActionQueue.m in Sources */,
+				AAFB83552A6E7535002E4EC2 /* EX2ANGLogger.m in Sources */,
 				18D45B3E1C8F100800A025CC /* EX2ActionBlock.m in Sources */,
 				18D45B411C8F100800A025CC /* NSArray+Reverse.m in Sources */,
 				18D45B441C8F100800A025CC /* NSArray+FilterBlock.m in Sources */,
@@ -1930,7 +1932,6 @@
 				STRIP_STYLE = all;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -1965,7 +1966,6 @@
 				STRIP_STYLE = all;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};

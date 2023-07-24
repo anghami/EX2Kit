@@ -55,6 +55,13 @@
 #define IS_BETA() (false)
 #endif
 
+// Beta version build switch
+#ifdef BETA
+#define IS_ADHOC() (true)
+#else
+#define IS_ADHOC() (false)
+#endif
+
 // Debug version build switch (activated only on debug builds)
 #ifdef DEBUG
 #define IS_DEBUG() (true)
