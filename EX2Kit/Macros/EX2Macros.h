@@ -29,11 +29,7 @@
 #define IS_TV() (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomTV)
 #endif
 
-#ifdef IMSG
-#define IS_IMSG() (true)
-#else
 #define IS_IMSG() (false)
-#endif
 
 #ifdef WATCHOS
 #define IS_WATCH() (true)
