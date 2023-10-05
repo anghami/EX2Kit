@@ -1930,7 +1930,6 @@
 				STRIP_STYLE = all;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -1965,7 +1964,6 @@
 				STRIP_STYLE = all;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -2062,7 +2060,6 @@
 				DEAD_CODE_STRIPPING = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
