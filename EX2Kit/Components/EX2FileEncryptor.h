@@ -17,6 +17,7 @@
 @property (nonatomic, readonly) NSString *path;
 
 @property (nonatomic, readonly) NSUInteger bytesInBuffer;
+@property (nonatomic, readonly) NSUInteger maxBufferLength;
 
 @property (nonatomic, readonly) unsigned long long encryptedFileSizeOnDisk;
 @property (nonatomic, readonly) unsigned long long decryptedFileSizeOnDisk;
