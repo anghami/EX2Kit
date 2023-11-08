@@ -229,4 +229,8 @@
 	return self.encryptionBuffer.filledSpaceLength;
 }
 
+- (NSUInteger)maxBufferLength {
+    return self.encryptionBuffer.maximumLength;
+}
+
 @end
