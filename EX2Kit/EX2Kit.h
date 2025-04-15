@@ -15,15 +15,10 @@
 #import "EX2Components.h"
 
 #ifdef TVOS
-    #import "DDLog.h"
     #import "UIDevice+Hardware.h"
 #else
     #ifdef IOS
         #import "EX2UIComponents.h"
-        #import "CocoaLumberjack.h"
-    #endif
-    #ifdef WOS
-        #import "DDLog.h"
     #endif
 #endif
 

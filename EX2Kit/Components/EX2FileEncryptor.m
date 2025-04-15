@@ -12,7 +12,6 @@
 #import "RNEncryptor.h"
 #import "RNDecryptor.h"
 #import "EX2RingBuffer.h"
-#import "DDLog.h"
 #import "EX2ANGLogger.h"
 
 @interface EX2FileEncryptor()
