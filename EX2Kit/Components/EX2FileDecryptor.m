@@ -479,4 +479,11 @@ static __strong NSMutableDictionary *_activeFilePaths;
     return songData;
 }
 
+- (NSData *)getDataFromOffset:(NSUInteger)offset {
+    if (![self seekToOffset:offset]) {
+        return nil;
+    }
+    return [self getEntireData];
+}
+
 @end
