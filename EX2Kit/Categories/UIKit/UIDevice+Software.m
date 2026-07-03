@@ -9,12 +9,6 @@
 #import "UIDevice+Software.h"
 #import <sys/sysctl.h>
 
-#ifdef TVOS
-#else
-#import <CoreTelephony/CTCallCenter.h>
-#import <CoreTelephony/CTCall.h>
-#endif
-
 @implementation UIDevice (Software)
 
 - (NSString *)systemBuild 
@@ -59,21 +53,6 @@
         isJailbroken = [[NSFileManager defaultManager] fileExistsAtPath: @"/bin/bash"];
     
     return isJailbroken;
-#endif
-}
-
-- (BOOL)isOnPhoneCall
-{
-#ifdef TVOS
-    return NO;
-#else
-    CTCallCenter *callCenter = [[CTCallCenter alloc] init];
-    for (CTCall *call in callCenter.currentCalls)
-    {
-        if (call.callState != CTCallStateDisconnected)
-            return YES;
-    }
-    return NO;
 #endif
 }
 
