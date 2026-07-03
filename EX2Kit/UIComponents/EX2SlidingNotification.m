@@ -30,7 +30,35 @@ static __strong UIWindow *_mainWindow = nil;
 
 + (UIWindow *)mainWindow
 {
-    return _mainWindow ? _mainWindow : [[UIApplication sharedApplication] keyWindow];
+    if (_mainWindow)
+        return _mainWindow;
+    
+    for (UIScene *scene in [UIApplication sharedApplication].connectedScenes)
+    {
+        if (![scene isKindOfClass:UIWindowScene.class])
+            continue;
+        
+        UIWindowScene *windowScene = (UIWindowScene *)scene;
+        if (windowScene.activationState != UISceneActivationStateForegroundActive &&
+            windowScene.activationState != UISceneActivationStateForegroundInactive)
+            continue;
+        
+        for (UIWindow *window in windowScene.windows)
+        {
+            if (window.isKeyWindow)
+                return window;
+        }
+        
+        if (windowScene.windows.count > 0)
+            return windowScene.windows.firstObject;
+    }
+    
+    return nil;
+}
+
++ (CGFloat)statusBarHeight
+{
+    return [self mainWindow].windowScene.statusBarManager.statusBarFrame.size.height;
 }
 
 static __strong NSMutableArray *_activeMessages = nil;
@@ -198,7 +226,7 @@ static BOOL _isThrottlingEnabled = YES;
         // Set the start position
         self.view.y = -self.view.height;
         if (self.view.superview == [self.class mainWindow])
-            self.view.y += [[UIApplication sharedApplication] statusBarFrame].size.height;
+            self.view.y += [self.class statusBarHeight];
         
         //DLog(@"current frame: %@", NSStringFromCGRect(self.view.frame));
         [UIView animateWithDuration:ANIMATION_DELAY animations:^(void)
@@ -206,7 +234,7 @@ static BOOL _isThrottlingEnabled = YES;
              // If we're directly on the UIWindow then add the status bar height
              CGFloat y = 0.;
              if (self.view.superview == [self.class mainWindow] && !IS_IOS7())
-                 y = [[UIApplication sharedApplication] statusBarFrame].size.height;
+                 y = [self.class statusBarHeight];
              
              self.view.y = y;
              

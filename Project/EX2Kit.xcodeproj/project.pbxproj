@@ -51,12 +51,8 @@
 		18D45B281C8F100800A025CC /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884F716BB855A00372A2D /* RNCryptorEngine.m */; };
 		18D45B291C8F100800A025CC /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884F916BB855A00372A2D /* RNDecryptor.m */; };
 		18D45B2A1C8F100800A025CC /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FB16BB855A00372A2D /* RNEncryptor.m */; };
-		18D45B2B1C8F100800A025CC /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FD16BB855A00372A2D /* RNOpenSSLCryptor.m */; };
-		18D45B2C1C8F100800A025CC /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FF16BB855A00372A2D /* RNOpenSSLDecryptor.m */; };
 		18D45B2D1C8F100800A025CC /* NSOrderedSet+FirstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F684D17B23CF600FD5FB1 /* NSOrderedSet+FirstObject.m */; };
-		18D45B2E1C8F100800A025CC /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8850116BB855B00372A2D /* RNOpenSSLEncryptor.m */; };
 		18D45B2F1C8F100800A025CC /* RNCryptorOld.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8851E16BB8EF900372A2D /* RNCryptorOld.m */; };
-		18D45B321C8F100800A025CC /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5380B5C2170667F90010AED2 /* NSData+Hash.m */; };
 		18D45B331C8F100800A025CC /* NSMutableOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F684717B23C0E00FD5FB1 /* NSMutableOrderedSet+Safe.m */; };
 		18D45B371C8F100800A025CC /* NSNumber+CleanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CBC97173DDE61001989CE /* NSNumber+CleanString.m */; };
 		18D45B381C8F100800A025CC /* NSNull+CleanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CBC9B173DDF75001989CE /* NSNull+CleanString.m */; };
@@ -110,11 +106,7 @@
 		18D45B9E1C8F100800A025CC /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884F816BB855A00372A2D /* RNDecryptor.h */; };
 		18D45B9F1C8F100800A025CC /* NSMutableOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 530F684617B23C0E00FD5FB1 /* NSMutableOrderedSet+Safe.h */; };
 		18D45BA01C8F100800A025CC /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FA16BB855A00372A2D /* RNEncryptor.h */; };
-		18D45BA11C8F100800A025CC /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FC16BB855A00372A2D /* RNOpenSSLCryptor.h */; };
-		18D45BA21C8F100800A025CC /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FE16BB855A00372A2D /* RNOpenSSLDecryptor.h */; };
-		18D45BA31C8F100800A025CC /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F8850016BB855B00372A2D /* RNOpenSSLEncryptor.h */; };
 		18D45BA41C8F100800A025CC /* RNCryptorOld.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F8851D16BB8EF900372A2D /* RNCryptorOld.h */; };
-		18D45BA81C8F100800A025CC /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5380B5C1170667F90010AED2 /* NSData+Hash.h */; };
 		18D45BAC1C8F100800A025CC /* NSNumber+CleanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 537CBC96173DDE61001989CE /* NSNumber+CleanString.h */; };
 		18D45BAD1C8F100800A025CC /* NSNull+CleanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 537CBC9A173DDF75001989CE /* NSNull+CleanString.h */; };
 		18D45BAE1C8F100800A025CC /* NSObject+UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 53293F1A17418ADF007211CB /* NSObject+UserInfo.h */; };
@@ -206,10 +198,6 @@
 		530F685117B23CF600FD5FB1 /* NSOrderedSet+FirstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F684D17B23CF600FD5FB1 /* NSOrderedSet+FirstObject.m */; };
 		53145C17163F5E6400DE22F1 /* NSURL+QueryParameterDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 53145C15163F5E6400DE22F1 /* NSURL+QueryParameterDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53145C18163F5E6400DE22F1 /* NSURL+QueryParameterDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 53145C16163F5E6400DE22F1 /* NSURL+QueryParameterDictionary.m */; };
-		531F4F4017062C3300D7F8B0 /* NSFileHandle+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 531F4F3E17062C3300D7F8B0 /* NSFileHandle+Hash.h */; };
-		531F4F4117062C3300D7F8B0 /* NSFileHandle+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 531F4F3E17062C3300D7F8B0 /* NSFileHandle+Hash.h */; };
-		531F4F4217062C3300D7F8B0 /* NSFileHandle+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F4F3F17062C3300D7F8B0 /* NSFileHandle+Hash.m */; };
-		531F4F4317062C3300D7F8B0 /* NSFileHandle+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F4F3F17062C3300D7F8B0 /* NSFileHandle+Hash.m */; };
 		53293F1C17418ADF007211CB /* NSObject+UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 53293F1A17418ADF007211CB /* NSObject+UserInfo.h */; };
 		53293F1D17418ADF007211CB /* NSObject+UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 53293F1A17418ADF007211CB /* NSObject+UserInfo.h */; };
 		53293F1E17418ADF007211CB /* NSObject+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53293F1B17418ADF007211CB /* NSObject+UserInfo.m */; };
@@ -268,7 +256,6 @@
 		5373A95D162DD7430016A019 /* EX2Components.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F4C162B9FCA00C24FC1 /* EX2Components.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5373A95E162DD7430016A019 /* EX2FileDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F4D162B9FCA00C24FC1 /* EX2FileDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5373A95F162DD7430016A019 /* EX2FileEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F4F162B9FCA00C24FC1 /* EX2FileEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5373A960162DD7430016A019 /* EX2NetworkIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F51162B9FCA00C24FC1 /* EX2NetworkIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5373A961162DD7430016A019 /* EX2Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F53162B9FCA00C24FC1 /* EX2Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5373A962162DD7430016A019 /* EX2RingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F55162B9FCA00C24FC1 /* EX2RingBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5373A963162DD7430016A019 /* EX2SimpleConnectionQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F57162B9FCA00C24FC1 /* EX2SimpleConnectionQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -281,10 +268,6 @@
 		537CBC99173DDE61001989CE /* NSNumber+CleanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CBC97173DDE61001989CE /* NSNumber+CleanString.m */; };
 		537CBC9C173DDF76001989CE /* NSNull+CleanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 537CBC9A173DDF75001989CE /* NSNull+CleanString.h */; };
 		537CBC9D173DDF76001989CE /* NSNull+CleanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CBC9B173DDF75001989CE /* NSNull+CleanString.m */; };
-		5380B5C3170667F90010AED2 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5380B5C1170667F90010AED2 /* NSData+Hash.h */; };
-		5380B5C4170667F90010AED2 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5380B5C1170667F90010AED2 /* NSData+Hash.h */; };
-		5380B5C5170667F90010AED2 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5380B5C2170667F90010AED2 /* NSData+Hash.m */; };
-		5380B5C6170667F90010AED2 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5380B5C2170667F90010AED2 /* NSData+Hash.m */; };
 		539DC3FC17D649FF001FE630 /* UIImageView+ImageAnimated.h in Headers */ = {isa = PBXBuildFile; fileRef = 539DC3FA17D649FF001FE630 /* UIImageView+ImageAnimated.h */; };
 		539DC3FD17D649FF001FE630 /* UIImageView+ImageAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 539DC3FB17D649FF001FE630 /* UIImageView+ImageAnimated.m */; };
 		53A1C30817EB88980039DA81 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A1C30617EB88980039DA81 /* UIImage+Color.h */; };
@@ -322,7 +305,6 @@
 		53F15FAA162B9FCA00C24FC1 /* UIViewController+IsVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F4A162B9FCA00C24FC1 /* UIViewController+IsVisible.m */; };
 		53F15FAB162B9FCA00C24FC1 /* EX2FileDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F4E162B9FCA00C24FC1 /* EX2FileDecryptor.m */; };
 		53F15FAC162B9FCA00C24FC1 /* EX2FileEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F50162B9FCA00C24FC1 /* EX2FileEncryptor.m */; };
-		53F15FAD162B9FCA00C24FC1 /* EX2NetworkIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F52162B9FCA00C24FC1 /* EX2NetworkIndicator.m */; };
 		53F15FAE162B9FCA00C24FC1 /* EX2Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F54162B9FCA00C24FC1 /* EX2Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		53F15FAF162B9FCA00C24FC1 /* EX2RingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F56162B9FCA00C24FC1 /* EX2RingBuffer.m */; };
 		53F15FB0162B9FCA00C24FC1 /* EX2SimpleConnectionQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F15F58162B9FCA00C24FC1 /* EX2SimpleConnectionQueue.m */; };
@@ -340,15 +322,6 @@
 		53F8850C16BB855B00372A2D /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FA16BB855A00372A2D /* RNEncryptor.h */; };
 		53F8850D16BB855B00372A2D /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FA16BB855A00372A2D /* RNEncryptor.h */; };
 		53F8850E16BB855B00372A2D /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FB16BB855A00372A2D /* RNEncryptor.m */; };
-		53F8851016BB855B00372A2D /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FC16BB855A00372A2D /* RNOpenSSLCryptor.h */; };
-		53F8851116BB855B00372A2D /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FC16BB855A00372A2D /* RNOpenSSLCryptor.h */; };
-		53F8851216BB855B00372A2D /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FD16BB855A00372A2D /* RNOpenSSLCryptor.m */; };
-		53F8851416BB855B00372A2D /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FE16BB855A00372A2D /* RNOpenSSLDecryptor.h */; };
-		53F8851516BB855B00372A2D /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FE16BB855A00372A2D /* RNOpenSSLDecryptor.h */; };
-		53F8851616BB855B00372A2D /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FF16BB855A00372A2D /* RNOpenSSLDecryptor.m */; };
-		53F8851816BB855B00372A2D /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F8850016BB855B00372A2D /* RNOpenSSLEncryptor.h */; };
-		53F8851916BB855B00372A2D /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F8850016BB855B00372A2D /* RNOpenSSLEncryptor.h */; };
-		53F8851A16BB855B00372A2D /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8850116BB855B00372A2D /* RNOpenSSLEncryptor.m */; };
 		53F8851F16BB8EF900372A2D /* RNCryptorOld.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F8851D16BB8EF900372A2D /* RNCryptorOld.h */; };
 		53F8852016BB8EF900372A2D /* RNCryptorOld.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8851E16BB8EF900372A2D /* RNCryptorOld.m */; };
 		9901CC58212D8C1D0080B171 /* NSArray+CleanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9901CC56212D8C1D0080B171 /* NSArray+CleanString.h */; };
@@ -384,13 +357,8 @@
 		ECF069EF20077D8E008CBA54 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884F716BB855A00372A2D /* RNCryptorEngine.m */; };
 		ECF069F020077D8E008CBA54 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884F916BB855A00372A2D /* RNDecryptor.m */; };
 		ECF069F120077D8E008CBA54 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FB16BB855A00372A2D /* RNEncryptor.m */; };
-		ECF069F220077D8E008CBA54 /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FD16BB855A00372A2D /* RNOpenSSLCryptor.m */; };
-		ECF069F320077D8E008CBA54 /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F884FF16BB855A00372A2D /* RNOpenSSLDecryptor.m */; };
 		ECF069F420077D8E008CBA54 /* NSOrderedSet+FirstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F684D17B23CF600FD5FB1 /* NSOrderedSet+FirstObject.m */; };
-		ECF069F520077D8E008CBA54 /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8850116BB855B00372A2D /* RNOpenSSLEncryptor.m */; };
 		ECF069F620077D8E008CBA54 /* RNCryptorOld.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8851E16BB8EF900372A2D /* RNCryptorOld.m */; };
-		ECF069F820077D8E008CBA54 /* NSFileHandle+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F4F3F17062C3300D7F8B0 /* NSFileHandle+Hash.m */; };
-		ECF069F920077D8E008CBA54 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5380B5C2170667F90010AED2 /* NSData+Hash.m */; };
 		ECF069FA20077D8E008CBA54 /* NSMutableOrderedSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F684717B23C0E00FD5FB1 /* NSMutableOrderedSet+Safe.m */; };
 		ECF069FE20077D8E008CBA54 /* NSNumber+CleanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CBC97173DDE61001989CE /* NSNumber+CleanString.m */; };
 		ECF069FF20077D8E008CBA54 /* NSNull+CleanString.m in Sources */ = {isa = PBXBuildFile; fileRef = 537CBC9B173DDF75001989CE /* NSNull+CleanString.m */; };
@@ -404,7 +372,6 @@
 		ECF06A1220077D8E008CBA54 /* EX2Components.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F4C162B9FCA00C24FC1 /* EX2Components.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECF06A1320077D8E008CBA54 /* EX2FileDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F4D162B9FCA00C24FC1 /* EX2FileDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECF06A1420077D8E008CBA54 /* EX2FileEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F4F162B9FCA00C24FC1 /* EX2FileEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECF06A1520077D8E008CBA54 /* EX2NetworkIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F51162B9FCA00C24FC1 /* EX2NetworkIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECF06A1720077D8E008CBA54 /* EX2RingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F55162B9FCA00C24FC1 /* EX2RingBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECF06A1820077D8E008CBA54 /* EX2SimpleConnectionQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F57162B9FCA00C24FC1 /* EX2SimpleConnectionQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECF06A1920077D8E008CBA54 /* EX2Macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F15F73162B9FCA00C24FC1 /* EX2Macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -445,12 +412,7 @@
 		ECF06A6420077D8E008CBA54 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884F816BB855A00372A2D /* RNDecryptor.h */; };
 		ECF06A6520077D8E008CBA54 /* NSMutableOrderedSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 530F684617B23C0E00FD5FB1 /* NSMutableOrderedSet+Safe.h */; };
 		ECF06A6620077D8E008CBA54 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FA16BB855A00372A2D /* RNEncryptor.h */; };
-		ECF06A6720077D8E008CBA54 /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FC16BB855A00372A2D /* RNOpenSSLCryptor.h */; };
-		ECF06A6820077D8E008CBA54 /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F884FE16BB855A00372A2D /* RNOpenSSLDecryptor.h */; };
-		ECF06A6920077D8E008CBA54 /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F8850016BB855B00372A2D /* RNOpenSSLEncryptor.h */; };
 		ECF06A6A20077D8E008CBA54 /* RNCryptorOld.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F8851D16BB8EF900372A2D /* RNCryptorOld.h */; };
-		ECF06A6D20077D8E008CBA54 /* NSFileHandle+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 531F4F3E17062C3300D7F8B0 /* NSFileHandle+Hash.h */; };
-		ECF06A6E20077D8E008CBA54 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5380B5C1170667F90010AED2 /* NSData+Hash.h */; };
 		ECF06A7220077D8E008CBA54 /* NSNumber+CleanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 537CBC96173DDE61001989CE /* NSNumber+CleanString.h */; };
 		ECF06A7320077D8E008CBA54 /* NSNull+CleanString.h in Headers */ = {isa = PBXBuildFile; fileRef = 537CBC9A173DDF75001989CE /* NSNull+CleanString.h */; };
 		ECF06A7420077D8E008CBA54 /* NSObject+UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 53293F1A17418ADF007211CB /* NSObject+UserInfo.h */; };
@@ -519,8 +481,6 @@
 		530F684D17B23CF600FD5FB1 /* NSOrderedSet+FirstObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+FirstObject.m"; sourceTree = "<group>"; };
 		53145C15163F5E6400DE22F1 /* NSURL+QueryParameterDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryParameterDictionary.h"; sourceTree = "<group>"; };
 		53145C16163F5E6400DE22F1 /* NSURL+QueryParameterDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryParameterDictionary.m"; sourceTree = "<group>"; };
-		531F4F3E17062C3300D7F8B0 /* NSFileHandle+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileHandle+Hash.h"; sourceTree = "<group>"; };
-		531F4F3F17062C3300D7F8B0 /* NSFileHandle+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileHandle+Hash.m"; sourceTree = "<group>"; };
 		53293F1A17418ADF007211CB /* NSObject+UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserInfo.h"; sourceTree = "<group>"; };
 		53293F1B17418ADF007211CB /* NSObject+UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserInfo.m"; sourceTree = "<group>"; };
 		5339E1801635E93A007628C0 /* NSString+HasValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HasValue.h"; sourceTree = "<group>"; };
@@ -541,8 +501,6 @@
 		537CBC97173DDE61001989CE /* NSNumber+CleanString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CleanString.m"; sourceTree = "<group>"; };
 		537CBC9A173DDF75001989CE /* NSNull+CleanString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+CleanString.h"; sourceTree = "<group>"; };
 		537CBC9B173DDF75001989CE /* NSNull+CleanString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+CleanString.m"; sourceTree = "<group>"; };
-		5380B5C1170667F90010AED2 /* NSData+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Hash.h"; sourceTree = "<group>"; };
-		5380B5C2170667F90010AED2 /* NSData+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Hash.m"; sourceTree = "<group>"; };
 		539DC3FA17D649FF001FE630 /* UIImageView+ImageAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageAnimated.h"; sourceTree = "<group>"; };
 		539DC3FB17D649FF001FE630 /* UIImageView+ImageAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageAnimated.m"; sourceTree = "<group>"; };
 		53A1C30617EB88980039DA81 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
@@ -621,8 +579,6 @@
 		53F15F4E162B9FCA00C24FC1 /* EX2FileDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EX2FileDecryptor.m; sourceTree = "<group>"; };
 		53F15F4F162B9FCA00C24FC1 /* EX2FileEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EX2FileEncryptor.h; sourceTree = "<group>"; };
 		53F15F50162B9FCA00C24FC1 /* EX2FileEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EX2FileEncryptor.m; sourceTree = "<group>"; };
-		53F15F51162B9FCA00C24FC1 /* EX2NetworkIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EX2NetworkIndicator.h; sourceTree = "<group>"; };
-		53F15F52162B9FCA00C24FC1 /* EX2NetworkIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EX2NetworkIndicator.m; sourceTree = "<group>"; };
 		53F15F53162B9FCA00C24FC1 /* EX2Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EX2Reachability.h; sourceTree = "<group>"; };
 		53F15F54162B9FCA00C24FC1 /* EX2Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EX2Reachability.m; sourceTree = "<group>"; };
 		53F15F55162B9FCA00C24FC1 /* EX2RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EX2RingBuffer.h; sourceTree = "<group>"; };
@@ -645,12 +601,6 @@
 		53F884F916BB855A00372A2D /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
 		53F884FA16BB855A00372A2D /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
 		53F884FB16BB855A00372A2D /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
-		53F884FC16BB855A00372A2D /* RNOpenSSLCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLCryptor.h; sourceTree = "<group>"; };
-		53F884FD16BB855A00372A2D /* RNOpenSSLCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOpenSSLCryptor.m; sourceTree = "<group>"; };
-		53F884FE16BB855A00372A2D /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
-		53F884FF16BB855A00372A2D /* RNOpenSSLDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOpenSSLDecryptor.m; sourceTree = "<group>"; };
-		53F8850016BB855B00372A2D /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
-		53F8850116BB855B00372A2D /* RNOpenSSLEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOpenSSLEncryptor.m; sourceTree = "<group>"; };
 		53F8851D16BB8EF900372A2D /* RNCryptorOld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNCryptorOld.h; path = RNCryptor/RNCryptorOld.h; sourceTree = "<group>"; };
 		53F8851E16BB8EF900372A2D /* RNCryptorOld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNCryptorOld.m; path = RNCryptor/RNCryptorOld.m; sourceTree = "<group>"; };
 		9901CC56212D8C1D0080B171 /* NSArray+CleanString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CleanString.h"; sourceTree = "<group>"; };
@@ -805,12 +755,6 @@
 				53F884F916BB855A00372A2D /* RNDecryptor.m */,
 				53F884FA16BB855A00372A2D /* RNEncryptor.h */,
 				53F884FB16BB855A00372A2D /* RNEncryptor.m */,
-				53F884FC16BB855A00372A2D /* RNOpenSSLCryptor.h */,
-				53F884FD16BB855A00372A2D /* RNOpenSSLCryptor.m */,
-				53F884FE16BB855A00372A2D /* RNOpenSSLDecryptor.h */,
-				53F884FF16BB855A00372A2D /* RNOpenSSLDecryptor.m */,
-				53F8850016BB855B00372A2D /* RNOpenSSLEncryptor.h */,
-				53F8850116BB855B00372A2D /* RNOpenSSLEncryptor.m */,
 			);
 			path = RNCryptor;
 			sourceTree = "<group>";
@@ -877,10 +821,6 @@
 				53F15F10162B9FCA00C24FC1 /* NSString */,
 				533B3E52165D8FE000ECD75F /* NSURL+SkipBackupAttribute.h */,
 				533B3E53165D8FE000ECD75F /* NSURL+SkipBackupAttribute.m */,
-				531F4F3E17062C3300D7F8B0 /* NSFileHandle+Hash.h */,
-				531F4F3F17062C3300D7F8B0 /* NSFileHandle+Hash.m */,
-				5380B5C1170667F90010AED2 /* NSData+Hash.h */,
-				5380B5C2170667F90010AED2 /* NSData+Hash.m */,
 				537CBC96173DDE61001989CE /* NSNumber+CleanString.h */,
 				537CBC97173DDE61001989CE /* NSNumber+CleanString.m */,
 				537CBC9A173DDF75001989CE /* NSNull+CleanString.h */,
@@ -996,8 +936,6 @@
 				53F15F4E162B9FCA00C24FC1 /* EX2FileDecryptor.m */,
 				53F15F4F162B9FCA00C24FC1 /* EX2FileEncryptor.h */,
 				53F15F50162B9FCA00C24FC1 /* EX2FileEncryptor.m */,
-				53F15F51162B9FCA00C24FC1 /* EX2NetworkIndicator.h */,
-				53F15F52162B9FCA00C24FC1 /* EX2NetworkIndicator.m */,
 				53F15F53162B9FCA00C24FC1 /* EX2Reachability.h */,
 				53F15F54162B9FCA00C24FC1 /* EX2Reachability.m */,
 				53F15F55162B9FCA00C24FC1 /* EX2RingBuffer.h */,
@@ -1115,11 +1053,7 @@
 				18D45B9E1C8F100800A025CC /* RNDecryptor.h in Headers */,
 				18D45B9F1C8F100800A025CC /* NSMutableOrderedSet+Safe.h in Headers */,
 				18D45BA01C8F100800A025CC /* RNEncryptor.h in Headers */,
-				18D45BA11C8F100800A025CC /* RNOpenSSLCryptor.h in Headers */,
-				18D45BA21C8F100800A025CC /* RNOpenSSLDecryptor.h in Headers */,
-				18D45BA31C8F100800A025CC /* RNOpenSSLEncryptor.h in Headers */,
 				18D45BA41C8F100800A025CC /* RNCryptorOld.h in Headers */,
-				18D45BA81C8F100800A025CC /* NSData+Hash.h in Headers */,
 				18D45BAC1C8F100800A025CC /* NSNumber+CleanString.h in Headers */,
 				18D45BAD1C8F100800A025CC /* NSNull+CleanString.h in Headers */,
 				18D45BAE1C8F100800A025CC /* NSObject+UserInfo.h in Headers */,
@@ -1172,12 +1106,7 @@
 				53F8850516BB855B00372A2D /* RNCryptorEngine.h in Headers */,
 				53F8850916BB855B00372A2D /* RNDecryptor.h in Headers */,
 				53F8850D16BB855B00372A2D /* RNEncryptor.h in Headers */,
-				53F8851116BB855B00372A2D /* RNOpenSSLCryptor.h in Headers */,
-				53F8851516BB855B00372A2D /* RNOpenSSLDecryptor.h in Headers */,
-				53F8851916BB855B00372A2D /* RNOpenSSLEncryptor.h in Headers */,
 				530F684917B23C0E00FD5FB1 /* NSMutableOrderedSet+Safe.h in Headers */,
-				531F4F4117062C3300D7F8B0 /* NSFileHandle+Hash.h in Headers */,
-				5380B5C4170667F90010AED2 /* NSData+Hash.h in Headers */,
 				53293F1D17418ADF007211CB /* NSObject+UserInfo.h in Headers */,
 				530F684317B23BF800FD5FB1 /* NSOrderedSet+Safe.h in Headers */,
 				533DA5C1174EAC080064A3E1 /* EX2ActionQueue.h in Headers */,
@@ -1195,7 +1124,6 @@
 				5373A95D162DD7430016A019 /* EX2Components.h in Headers */,
 				5373A95E162DD7430016A019 /* EX2FileDecryptor.h in Headers */,
 				5373A95F162DD7430016A019 /* EX2FileEncryptor.h in Headers */,
-				5373A960162DD7430016A019 /* EX2NetworkIndicator.h in Headers */,
 				5373A961162DD7430016A019 /* EX2Reachability.h in Headers */,
 				5373A962162DD7430016A019 /* EX2RingBuffer.h in Headers */,
 				5373A963162DD7430016A019 /* EX2SimpleConnectionQueue.h in Headers */,
@@ -1250,14 +1178,9 @@
 				53F8850816BB855B00372A2D /* RNDecryptor.h in Headers */,
 				530F684817B23C0E00FD5FB1 /* NSMutableOrderedSet+Safe.h in Headers */,
 				53F8850C16BB855B00372A2D /* RNEncryptor.h in Headers */,
-				53F8851016BB855B00372A2D /* RNOpenSSLCryptor.h in Headers */,
-				53F8851416BB855B00372A2D /* RNOpenSSLDecryptor.h in Headers */,
-				53F8851816BB855B00372A2D /* RNOpenSSLEncryptor.h in Headers */,
 				53F8851F16BB8EF900372A2D /* RNCryptorOld.h in Headers */,
 				18A45BE22048685A003CE1D6 /* EX2ANGLogger.h in Headers */,
 				FC488817182C880A00356DE7 /* UIViewController+Tools.h in Headers */,
-				531F4F4017062C3300D7F8B0 /* NSFileHandle+Hash.h in Headers */,
-				5380B5C3170667F90010AED2 /* NSData+Hash.h in Headers */,
 				537CBC98173DDE61001989CE /* NSNumber+CleanString.h in Headers */,
 				537CBC9C173DDF76001989CE /* NSNull+CleanString.h in Headers */,
 				53293F1C17418ADF007211CB /* NSObject+UserInfo.h in Headers */,
@@ -1279,7 +1202,6 @@
 				ECF06A1220077D8E008CBA54 /* EX2Components.h in Headers */,
 				ECF06A1320077D8E008CBA54 /* EX2FileDecryptor.h in Headers */,
 				ECF06A1420077D8E008CBA54 /* EX2FileEncryptor.h in Headers */,
-				ECF06A1520077D8E008CBA54 /* EX2NetworkIndicator.h in Headers */,
 				ECF06A1720077D8E008CBA54 /* EX2RingBuffer.h in Headers */,
 				ECF06A1820077D8E008CBA54 /* EX2SimpleConnectionQueue.h in Headers */,
 				ECF06A1920077D8E008CBA54 /* EX2Macros.h in Headers */,
@@ -1320,12 +1242,7 @@
 				ECF06A6420077D8E008CBA54 /* RNDecryptor.h in Headers */,
 				ECF06A6520077D8E008CBA54 /* NSMutableOrderedSet+Safe.h in Headers */,
 				ECF06A6620077D8E008CBA54 /* RNEncryptor.h in Headers */,
-				ECF06A6720077D8E008CBA54 /* RNOpenSSLCryptor.h in Headers */,
-				ECF06A6820077D8E008CBA54 /* RNOpenSSLDecryptor.h in Headers */,
-				ECF06A6920077D8E008CBA54 /* RNOpenSSLEncryptor.h in Headers */,
 				ECF06A6A20077D8E008CBA54 /* RNCryptorOld.h in Headers */,
-				ECF06A6D20077D8E008CBA54 /* NSFileHandle+Hash.h in Headers */,
-				ECF06A6E20077D8E008CBA54 /* NSData+Hash.h in Headers */,
 				ECF06A7220077D8E008CBA54 /* NSNumber+CleanString.h in Headers */,
 				ECF06A7320077D8E008CBA54 /* NSNull+CleanString.h in Headers */,
 				ECF06A7420077D8E008CBA54 /* NSObject+UserInfo.h in Headers */,
@@ -1529,13 +1446,9 @@
 				18D45B281C8F100800A025CC /* RNCryptorEngine.m in Sources */,
 				18D45B291C8F100800A025CC /* RNDecryptor.m in Sources */,
 				18D45B2A1C8F100800A025CC /* RNEncryptor.m in Sources */,
-				18D45B2B1C8F100800A025CC /* RNOpenSSLCryptor.m in Sources */,
 				18252E061CD8926100350A67 /* UIView+Tools.m in Sources */,
-				18D45B2C1C8F100800A025CC /* RNOpenSSLDecryptor.m in Sources */,
 				18D45B2D1C8F100800A025CC /* NSOrderedSet+FirstObject.m in Sources */,
-				18D45B2E1C8F100800A025CC /* RNOpenSSLEncryptor.m in Sources */,
 				18D45B2F1C8F100800A025CC /* RNCryptorOld.m in Sources */,
-				18D45B321C8F100800A025CC /* NSData+Hash.m in Sources */,
 				18D45B331C8F100800A025CC /* NSMutableOrderedSet+Safe.m in Sources */,
 				18D45B371C8F100800A025CC /* NSNumber+CleanString.m in Sources */,
 				18D45B381C8F100800A025CC /* NSNull+CleanString.m in Sources */,
@@ -1578,8 +1491,6 @@
 				5304A246169018D2009B2732 /* EX2RingBuffer.m in Sources */,
 				5304A247169018D2009B2732 /* EX2SimpleConnectionQueue.m in Sources */,
 				5304A248169018D2009B2732 /* EX2Dispatch.m in Sources */,
-				531F4F4317062C3300D7F8B0 /* NSFileHandle+Hash.m in Sources */,
-				5380B5C6170667F90010AED2 /* NSData+Hash.m in Sources */,
 				53293F1F17418ADF007211CB /* NSObject+UserInfo.m in Sources */,
 				533DA5C3174EAC080064A3E1 /* EX2ActionQueue.m in Sources */,
 				533DA5CC174EAD570064A3E1 /* EX2ActionBlock.m in Sources */,
@@ -1621,7 +1532,6 @@
 				9901CC59212D8C1D0080B171 /* NSArray+CleanString.m in Sources */,
 				53F15FAB162B9FCA00C24FC1 /* EX2FileDecryptor.m in Sources */,
 				53F15FAC162B9FCA00C24FC1 /* EX2FileEncryptor.m in Sources */,
-				53F15FAD162B9FCA00C24FC1 /* EX2NetworkIndicator.m in Sources */,
 				53F15FAE162B9FCA00C24FC1 /* EX2Reachability.m in Sources */,
 				53F15FAF162B9FCA00C24FC1 /* EX2RingBuffer.m in Sources */,
 				53F15FB0162B9FCA00C24FC1 /* EX2SimpleConnectionQueue.m in Sources */,
@@ -1637,13 +1547,8 @@
 				196928BA25EFA2BE00AB7C7F /* UIImage+Tint.m in Sources */,
 				53F8850A16BB855B00372A2D /* RNDecryptor.m in Sources */,
 				53F8850E16BB855B00372A2D /* RNEncryptor.m in Sources */,
-				53F8851216BB855B00372A2D /* RNOpenSSLCryptor.m in Sources */,
-				53F8851616BB855B00372A2D /* RNOpenSSLDecryptor.m in Sources */,
 				530F685017B23CF600FD5FB1 /* NSOrderedSet+FirstObject.m in Sources */,
-				53F8851A16BB855B00372A2D /* RNOpenSSLEncryptor.m in Sources */,
 				53F8852016BB8EF900372A2D /* RNCryptorOld.m in Sources */,
-				531F4F4217062C3300D7F8B0 /* NSFileHandle+Hash.m in Sources */,
-				5380B5C5170667F90010AED2 /* NSData+Hash.m in Sources */,
 				530F684A17B23C0E00FD5FB1 /* NSMutableOrderedSet+Safe.m in Sources */,
 				537CBC99173DDE61001989CE /* NSNumber+CleanString.m in Sources */,
 				537CBC9D173DDF76001989CE /* NSNull+CleanString.m in Sources */,
@@ -1702,14 +1607,9 @@
 				ECF069EF20077D8E008CBA54 /* RNCryptorEngine.m in Sources */,
 				ECF069F020077D8E008CBA54 /* RNDecryptor.m in Sources */,
 				ECF069F120077D8E008CBA54 /* RNEncryptor.m in Sources */,
-				ECF069F220077D8E008CBA54 /* RNOpenSSLCryptor.m in Sources */,
-				ECF069F320077D8E008CBA54 /* RNOpenSSLDecryptor.m in Sources */,
 				185DBF5D2049B85F001A27AD /* EX2ANGLogger.m in Sources */,
 				ECF069F420077D8E008CBA54 /* NSOrderedSet+FirstObject.m in Sources */,
-				ECF069F520077D8E008CBA54 /* RNOpenSSLEncryptor.m in Sources */,
 				ECF069F620077D8E008CBA54 /* RNCryptorOld.m in Sources */,
-				ECF069F820077D8E008CBA54 /* NSFileHandle+Hash.m in Sources */,
-				ECF069F920077D8E008CBA54 /* NSData+Hash.m in Sources */,
 				ECF069FA20077D8E008CBA54 /* NSMutableOrderedSet+Safe.m in Sources */,
 				ECF069FE20077D8E008CBA54 /* NSNumber+CleanString.m in Sources */,
 				ECF069FF20077D8E008CBA54 /* NSNull+CleanString.m in Sources */,
@@ -2015,7 +1915,7 @@
 					"\"$(SRCROOT)\"/**",
 					"\"$(PROJECT_DIR)\"/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
@@ -2045,7 +1945,7 @@
 					"\"$(SRCROOT)\"/**",
 					"\"$(PROJECT_DIR)\"/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
@@ -2070,7 +1970,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "EX2KitResources/EX2KitResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.einsteinx2.${PRODUCT_NAME:rfc1034identifier}";
@@ -2098,7 +1998,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "EX2KitResources/EX2KitResources-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.einsteinx2.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

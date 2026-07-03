@@ -17,7 +17,6 @@
 #import "NSData+Gzip.h"
 #import "NSMutableDictionary+Safe.h"
 #import "NSURL+QueryParameterDictionary.h"
-#import "NSData+Hash.h"
 #import "NSNumber+CleanString.h"
 #import "NSNull+CleanString.h"
 #import "NSObject+UserInfo.h"
@@ -25,7 +24,6 @@
 #import "NSMutableOrderedSet+Safe.h"
 #import "NSOrderedSet+FirstObject.h"
 #import "NSURL+SkipBackupAttribute.h"
-#import "NSFileHandle+Hash.h"
 #import "NSArray+CleanString.h"
 
 #endif

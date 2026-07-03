@@ -29,13 +29,6 @@
 
 @property (nonatomic, readonly) UIViewController *viewController;
 
-#ifdef TVOS
-#else
-- (CGSize)realSizeDidRotate;
-- (CGSize)realSizeDidRotate:(UIDeviceOrientation)currentOrientation;
-+ (UIInterfaceOrientation)interfaceOrientationFromDeviceOrientation:(UIDeviceOrientation)deviceOrientation;
-#endif
-
 - (void)addLeftShadowWithWidth:(CGFloat)shadowWidth alpha:(CGFloat)shadowAlpha;
 - (void)addLeftShadow;
 - (void)removeLeftShadow;
